@@ -85,7 +85,7 @@ make burst
 For a larger run:
 
 ```bash
-./scripts/burst.sh http://localhost:8000 20000 300
+./burst.sh http://localhost:8000 20000 300
 ```
 
 The burst script creates a fresh show, sends a hot-seat-heavy concurrent workload, prints outcome distribution, and checks the final reconciliation invariant.
@@ -97,7 +97,7 @@ The burst script creates a fresh show, sends a hot-seat-heavy concurrent workloa
 After deployment:
 
 ```bash
-./scripts/burst.sh https://YOUR-LIVE-URL 20000 300
+./burst.sh https://YOUR-LIVE-URL 20000 300
 ```
 
 ## Clean checkout
